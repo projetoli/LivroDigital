@@ -126,15 +126,14 @@
       },
       messages: {
         user_name: {
-          required: 'Come on, you have a name don\'t you?',
-          minlength: 'Your name must consist of at least 2 characters'
+          required: 'Esqueceu seu nome?',
+          minlength: 'Seu nome deve ter pelo menos 4 caracteres :('
         },
         email: {
-          required: 'Please put your email address'
+          required: 'Onde está seu E-mail?'
         },
         message: {
-          required: 'Put some messages here?',
-          minlength: 'Your name must consist of at least 2 characters'
+          required: 'Você não tem uma mensagem para enviar?',
         }
       },
       submitHandler: function (form) {
@@ -143,10 +142,10 @@
           data: $(form).serialize(),
           url: 'sendmail.php',
           success: function () {
-            $('#contact-form #success').fadeIn();
+            $('#contact-form #succeso').fadeIn();
           },
           error: function () {
-            $('#contact-form #error').fadeIn();
+            $('#contact-form #erro').fadeIn();
           }
         });
       }
