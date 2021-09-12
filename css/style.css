@@ -528,7 +528,7 @@ a:focus, a:hover {
     background:   #34073d;
   }
   .navigation .navbar-light .navbar-nav .nav-item .nav-link {
-    color:  #34073d;
+    color:    #ef745c;
   }
   .navigation .logo-white {
     display: none;
@@ -539,6 +539,7 @@ a:focus, a:hover {
   .navigation .navbar-light .navbar-toggler {
     color: #ef745c;
     border-color: #c05954;
+    background: #ef745c;
   }
 }
 
@@ -730,7 +731,7 @@ a:focus, a:hover {
   z-index: 9;
   height: 70px;
   width: 70px;
-  background: #c05954;
+  background: rgba(192,89,84, 0.5);
   color: #fff;
   border: 0;
   line-height: 70px;
@@ -768,7 +769,7 @@ a:focus, a:hover {
 }
 
 .slick-arrow:hover {
-  background:   #923e4d;
+  background:   rgba(146,62,77, 0.5);
 }
 
 .prevArrow {
@@ -2422,4 +2423,3 @@ footer li{
 }
 
 /*# sourceMappingURL=maps/style.css.map */
-
