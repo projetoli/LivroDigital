@@ -142,10 +142,10 @@
           data: $(form).serialize(),
           url: 'sendmail.php',
           success: function () {
-            $('#contact-form #succeso').fadeIn();
+            $('#contact-form #success').fadeIn();
           },
           error: function () {
-            $('#contact-form #erro').fadeIn();
+            $('#contact-form #error').fadeIn();
           }
         });
       }
