@@ -1509,7 +1509,7 @@ a:focus, a:hover {
 ==================================================================*/
 .testimonial {
   padding-top: 100px;
-  background: #28ABE3;
+  background:   #632245;
   position: relative;
   padding-bottom: 0px;
   margin-bottom: 80px;
@@ -1528,9 +1528,13 @@ a:focus, a:hover {
 
 .testimonial .item i {
   font-size: 60px;
-  color: #fff;
+  color:  #ef745c;
   margin-bottom: 50px;
   display: inline-block;
+}
+
+.testimonial .item i:hover{
+  color: #c05954;
 }
 
 .testimonial .item .client-details {
