@@ -1008,7 +1008,7 @@ a:focus, a:hover {
   margin: 0;
 }
 
-.erro {
+.error {
   padding: 10px;
   color: #D8000C;
   border-radius: 2px;
@@ -1016,7 +1016,7 @@ a:focus, a:hover {
   background-color: #FFBABA;
 }
 
-.sucesso {
+.success {
   background-color: #6cb670;
   border-radius: 2px;
   color: #fff;
@@ -1024,7 +1024,7 @@ a:focus, a:hover {
   padding: 10px;
 }
 
-#erro, #sucesso {
+#error, #success {
   display: none;
   margin-bottom: 10px;
 }
