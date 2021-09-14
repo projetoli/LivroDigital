@@ -80,6 +80,11 @@ a:focus, a:hover {
   border-radius: 40px;
 }
 
+.btn-main:hover{
+  color:#fff;
+  background:   #c05954;
+}
+
 .btn-transparent {
   color: #fff;
   display: inline-block;
@@ -91,7 +96,7 @@ a:focus, a:hover {
 }
 
 .btn-transparent:hover {
-  color: #fff;
+  color: #bdbdbd;
 }
 
 .mt-10 {
