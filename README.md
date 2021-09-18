@@ -1,4 +1,1 @@
-# Livro Digital
-* Clique [Aqui](https://projetoli.github.io/LivroDigital/) para acessar o site!
-
-# Atualizações Semanais
+<h1 align="center">Livro Digital</h1>
