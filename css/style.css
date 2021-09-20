@@ -6,6 +6,7 @@ body {
   background-color:   #fff;
 }
 
+
 p {
   font-family: "Source Sans Pro", sans-serif;
   color:  #632245;
@@ -16,6 +17,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Catamaran", sans-serif;
   font-weight: 600;
   color: #ef745c
+}
+table{
+  border-collapse:collapse ;
+  width: 100%;
+  color: #632245;
+}
+td,th{
+  border: 3px solid #ef745c;
+  padding: 10px;
+  text-align: center;
 }
 
 label{
@@ -46,6 +57,11 @@ li{
   font-family: "Source Sans Pro", sans-serif;
   display: block;
 }
+.tipos{
+  color: #ef745c;
+  font-size: 20px;
+  font-family: "Catamaran", sans-serif;
+}
 
 figure {
   margin: 0;
@@ -69,6 +85,38 @@ a:focus, a:hover {
   color:  #ef745c;
 }
 
+.ajuste{
+  margin-top: auto;
+}
+.menuge{
+    border: 0;
+    border-radius: 0;
+    top: 80%;
+    left: 5px;
+    display: block;
+    background:#34073d;
+    position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+  }
+  .navbar-nav{
+    color: blue;
+    
+  }
+.center{
+  padding: 1%;
+	 position: relative;
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 font-size: 1.5em;
+	 font-weight: bolder;
+   background-color:#34073d ;
+}
+
+
+
 .btn-main {
   background: #ef745c;
   color: #fff;
@@ -78,11 +126,6 @@ a:focus, a:hover {
   padding: 12px 40px;
   text-transform: uppercase;
   border-radius: 40px;
-}
-
-.btn-main:hover{
-  color:#fff;
-  background:   #c05954;
 }
 
 .btn-transparent {
@@ -96,7 +139,7 @@ a:focus, a:hover {
 }
 
 .btn-transparent:hover {
-  color: #bdbdbd;
+  color: #fff;
 }
 
 .mt-10 {
@@ -431,35 +474,8 @@ a:focus, a:hover {
 }
 
 /*=================================================================
-  Modal
-==================================================================*/
-.modal-header, .modal-body{
-  text-align: justify;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.modal-header span{
-  color:#c05954;
-}
-
-.modal-body p,ul li{
-  font-family: "Source Sans Pro", sans-serif;
-  color:  #632245;
-  font-size: 18px;
-  margin-bottom: 1.5%;
-}
-.close {
-  position: absolute;
-  top: 10px;right: 10px;
-}
-
-/*=================================================================
   Navigation
 ==================================================================*/
-.navigation {
-  transition: .3s all;
-}
 
 .navigation .logo-default {
   display: none;
@@ -476,10 +492,9 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
-  background: #34073d
+  background: #34073d;
   color: #ef745c;
 }
-
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #c05954;
 }
@@ -497,6 +512,10 @@ a:focus, a:hover {
           transform: scaleY(1);
 }
 
+.inicio{
+  margin-top: 100px;
+}
+
 .navigation .dropdown-menu {
   border: 0;
   border-radius: 0;
@@ -510,6 +529,11 @@ a:focus, a:hover {
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
+  background:#34073d;
+}
+.navi-genero.dropdown-menu{
+ 
+  bottom: auto;
   background:#34073d;
 }
 
@@ -1887,7 +1911,7 @@ a:focus, a:hover {
 }
 
 .post-meta > span {
-  color: #676
+  color: rgb(179, 199, 179);
   border-right: 1px solid #dedede;
   display: inline-block;
   font-size: 13px;
