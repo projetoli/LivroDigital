@@ -29,32 +29,16 @@ table{
   color:  #923e4d;
   text-align: center;
   border-collapse: collapse;
+  border-spacing: 0;
   width: 100%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-right: auto;
-  margin-left: auto;
  }
 
 td{
-  border: 5px solid  #632245;
-  text-align: center;
-  font-size: 0.8em;
-  padding: 2.5%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  color:  #632245;
  }
 
 th {  
-  border: 4px solid   #923e4d;
-  color:  #ef745c;
-  text-align: center;
-  font-size: 1.3em;
-  padding: 1%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 2.5%; 
-      
+  color:    #923e4d;
 }
 
 .no-padding {
