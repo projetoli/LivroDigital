@@ -6,7 +6,6 @@ body {
   background-color:   #fff;
 }
 
-
 p {
   font-family: "Source Sans Pro", sans-serif;
   color:  #632245;
@@ -18,19 +17,44 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #ef745c
 }
-table{
-  border-collapse:collapse ;
-  width: 100%;
-  color: #632245;
-}
-td,th{
-  border: 3px solid #ef745c;
-  padding: 10px;
-  text-align: center;
-}
 
 label{
   color:  #923e4d;
+}
+
+table{
+  font-family: "Catamaran", sans-serif;
+  font-size: 100%;
+  font-weight: bolder;
+  color:  #923e4d;
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: auto;
+  margin-left: auto;
+ }
+
+td{
+  border: 5px solid  #632245;
+  text-align: center;
+  font-size: 0.8em;
+  padding: 2.5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+ }
+
+th {  
+  border: 4px solid   #923e4d;
+  color:  #ef745c;
+  text-align: center;
+  font-size: 1.3em;
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2.5%; 
+      
 }
 
 .no-padding {
@@ -57,11 +81,6 @@ li{
   font-family: "Source Sans Pro", sans-serif;
   display: block;
 }
-.tipos{
-  color: #ef745c;
-  font-size: 20px;
-  font-family: "Catamaran", sans-serif;
-}
 
 figure {
   margin: 0;
@@ -85,38 +104,6 @@ a:focus, a:hover {
   color:  #ef745c;
 }
 
-.ajuste{
-  margin-top: auto;
-}
-.menuge{
-    border: 0;
-    border-radius: 0;
-    top: 80%;
-    left: 5px;
-    display: block;
-    background:#34073d;
-    position: fixed;
-		top: 0;
-		right: 0;
-		left: 0;
-  }
-  .navbar-nav{
-    color: blue;
-    
-  }
-.center{
-  padding: 1%;
-	 position: relative;
-	 display: flex;
-	 flex-direction: column;
-	 align-items: center;
-	 font-size: 1.5em;
-	 font-weight: bolder;
-   background-color:#34073d ;
-}
-
-
-
 .btn-main {
   background: #ef745c;
   color: #fff;
@@ -126,6 +113,11 @@ a:focus, a:hover {
   padding: 12px 40px;
   text-transform: uppercase;
   border-radius: 40px;
+}
+
+.btn-main:hover{
+  color:#fff;
+  background:   #c05954;
 }
 
 .btn-transparent {
@@ -139,7 +131,7 @@ a:focus, a:hover {
 }
 
 .btn-transparent:hover {
-  color: #fff;
+  color: #bdbdbd;
 }
 
 .mt-10 {
@@ -315,7 +307,7 @@ a:focus, a:hover {
 }
 
 .title p {
-  color: #ececec;
+  color:    #c05954;
   width: 50%;
   margin: 0 auto;
 }
@@ -474,8 +466,47 @@ a:focus, a:hover {
 }
 
 /*=================================================================
+  Modal
+==================================================================*/
+.modal-header, .modal-body{
+  text-align: justify;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.modal-header span{
+  color:#c05954;
+}
+
+.modal-body li{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #923e4d;
+  font-size: 18px;
+  margin-bottom: 1.5%;
+}
+
+.modal-body h3{
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+}
+
+.modal-body p{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #632245;
+  font-size: 18px;
+  margin-bottom: 1.5%;
+}
+.close {
+  position: absolute;
+  top: 10px;right: 10px;
+}
+
+/*=================================================================
   Navigation
 ==================================================================*/
+.navigation {
+  transition: .3s all;
+}
 
 .navigation .logo-default {
   display: none;
@@ -492,9 +523,10 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
-  background: #34073d;
+  background: #34073d
   color: #ef745c;
 }
+
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #c05954;
 }
@@ -512,10 +544,6 @@ a:focus, a:hover {
           transform: scaleY(1);
 }
 
-.inicio{
-  margin-top: 100px;
-}
-
 .navigation .dropdown-menu {
   border: 0;
   border-radius: 0;
@@ -529,11 +557,6 @@ a:focus, a:hover {
           transform: scaleY(0);
   -webkit-transform-origin: top;
           transform-origin: top;
-  background:#34073d;
-}
-.navi-genero.dropdown-menu{
- 
-  bottom: auto;
   background:#34073d;
 }
 
@@ -862,12 +885,11 @@ a:focus, a:hover {
   background: #fff;
 }
 
-.about .btn-about {
-  background: #28ABE3;
-}
-
 .about h4 {
   margin-top: 30px;
+  font-family: "Catamaran", sans-serif;
+  color:  #c05954;
+  font-size: 1.5em;
 }
 
 .about .feature-list {
@@ -887,37 +909,6 @@ a:focus, a:hover {
 .about .feature-list li i {
   color: #28ABE3;
   margin-right: 8px;
-}
-
-/*=================================================================
-  About us 2 section
-==================================================================*/
-.about-2 {
-  background: #F7F7F7;
-}
-
-.about-2 .checklist {
-  padding-left: 30px;
-}
-
-.about-2 .checklist li {
-  position: relative;
-  margin-bottom: 15px;
-  font-size: 16px;
-  color: #777;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.about-2 .checklist li:before {
-  position: absolute;
-  margin-right: 12px;
-  margin-left: -45px;
-  content: "\f375";
-  font-family: "themefisher-font";
-  opacity: 1;
-  border-radius: 50%;
-  padding: 2px 8px;
-  font-size: 20px;
 }
 
 /*=================================================================
@@ -1398,66 +1389,6 @@ a:focus, a:hover {
 }
 
 /*=================================================================
-  Step section
-==================================================================*/
-.development-steps .step {
-  padding: 80px 20px;
-}
-
-.development-steps .step h4 {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.development-steps .step h4 i {
-  font-size: 72px;
-  font-weight: 500;
-  margin-right: 10px;
-}
-
-.development-steps .step p {
-  color: #cccccc;
-  font-size: 14px;
-  line-height: 22px;
-}
-
-.development-steps .step-1 {
-  background-color: #f2f6f8;
-}
-
-.development-steps .step-1 h4 {
-  color: #212121;
-}
-
-.development-steps .step-1 p {
-  color: #838383;
-}
-
-.development-steps .step-2 {
-  background-color: #28ABE3;
-}
-
-.development-steps .step-2 h4, .development-steps .step-2 p {
-  color: #fff;
-}
-
-.development-steps .step-3 {
-  background: #198dbf;
-}
-
-.development-steps .step-3 h4, .development-steps .step-3 p {
-  color: #fff;
-}
-
-.development-steps .step-4 {
-  background: #167da9;
-}
-
-.development-steps .step-4 h4, .development-steps .step-4 p {
-  color: #fff;
-}
-
-/*=================================================================
   Our Team
   ==================================================================*/
 .team {
@@ -1911,7 +1842,7 @@ a:focus, a:hover {
 }
 
 .post-meta > span {
-  color: rgb(179, 199, 179);
+  color: #676
   border-right: 1px solid #dedede;
   display: inline-block;
   font-size: 13px;
