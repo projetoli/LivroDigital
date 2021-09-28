@@ -17,70 +17,32 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #ef745c
 }
+.titulo{
+  text-align: center;
+  margin-top: 4%;
+}
 
 label{
   color:  #923e4d;
 }
 
-*{
-  box-sizing: border-box;
-}
-
-.table{
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 4%;
-}
-
-.table td,.table th{
-  padding:12px 15px;
-  text-align: center;
-  font-size:16px;
+table{
+  font-family: "Catamaran", sans-serif;
+  font-size: 100%;
   font-weight: bolder;
-}
+  color:  #923e4d;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+ }
 
-.table th{
-  color:#923e4d;
-}
-
-.table td{
+td{
   color:  #632245;
-}
+ }
 
-.table tbody tr:nth-child(even){
-  background-color: #f5f5f5;
-}
-
-/*Lista Responsiva*/
-
-@media(max-width: 500px){
-  .table thead{
-    display: none;
-  }
-
-  .table, .table tbody, .table tr, .table td{
-    display: block;
-    width: 100%;
-  }
-  .table tr{
-    margin-bottom:15px;
-  }
-  .table td{
-    text-align: right;
-    padding-left: 50%;
-    text-align: right;
-    position: relative;
-  }
-  .table td::before{
-    content: attr(data-label);
-    position: absolute;
-    left:0;
-    width: 50%;
-    padding-left:15px;
-    font-size:15px;
-    font-weight: bold;
-    text-align: left;
-  }
+th {  
+  color:    #923e4d;
 }
 
 .no-padding {
@@ -516,17 +478,12 @@ a:focus, a:hover {
   margin-bottom: 1.5%;
 }
 
-.modal-body h5{
-  margin-top: 8%;
-}
-
 .modal-body p{
   font-family: "Source Sans Pro", sans-serif;
   color: #632245;
   font-size: 18px;
   margin-bottom: 1.5%;
 }
-
 .close {
   position: absolute;
   top: 10px;right: 10px;
@@ -554,7 +511,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
-  background: #34073d
+  background: #34073d;
   color: #ef745c;
 }
 
@@ -1873,7 +1830,7 @@ a:focus, a:hover {
 }
 
 .post-meta > span {
-  color: #676
+  color: #676;
   border-right: 1px solid #dedede;
   display: inline-block;
   font-size: 13px;
@@ -2120,7 +2077,7 @@ footer li{
 }
 
 /*============================================================
-  For Small Desktop
+	For Small Desktop
 ==============================================================*/
 @media (min-width: 700px) and (max-width: 1090px) {
   .counters-item:before {
@@ -2175,7 +2132,7 @@ footer li{
 }
 
 /*============================================================
-  Tablet (Portrait) Design for a width of 768px
+	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
 @media (min-width: 768px) and (max-width: 979px) {
   .counters-item:before {
@@ -2245,7 +2202,7 @@ footer li{
 }
 
 /*============================================================
-  Mobile (Portrait) Design for a width of 320px
+	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
 @media only screen and (max-width: 767px) {
   .counters-item:before {
@@ -2387,7 +2344,7 @@ footer li{
 }
 
 /*============================================================
-  Mobile (Landscape) Design for a width of 480px
+	Mobile (Landscape) Design for a width of 480px
 ==============================================================*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .title h2 {
