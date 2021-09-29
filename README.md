@@ -1,4 +1,4 @@
-<h1 align="center">⌛ Livro Digital ✏️</h1>
+<h1 align="center" style="color: #ef745c">⌛ Livro Digital ✏️</h1>
 <p align="center">Site para desenvolver e apresentar os estudos de Português e Interfaces Web</p>
 <br>
 <p align="center">Clique <a href="https://projetoli.github.io/LivroDigital/index.html" target="blank">aqui</a> para entrar no site!!!</p>
