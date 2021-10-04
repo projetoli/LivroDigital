@@ -40,5 +40,7 @@
   - Mateus Alves Moraes ➛ Colocando e estilizando as sinopses 
   - Luiz Henrique da silva ➛ Introduzir os contos
 
-[Lista de Organização](https://github.com/projetoli/LivroDigital/files/7248509/Lista.1.docx)
+  ##
+  
+  [Lista de Organização](https://github.com/projetoli/LivroDigital/files/7248509/Lista.1.docx)
 
