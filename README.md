@@ -5,8 +5,6 @@
 <br>
 <h2 align="justify">Organização Semanal</h2>
 
-[Lista de Organização](https://github.com/projetoli/LivroDigital/files/7248509/Lista.1.docx)
-
   09/08
   - Richard Dutra Mendes ➛ Escolhendo um template
   - Mateus Alves Moraes ➛ Escolhendo um template
@@ -42,4 +40,5 @@
   - Mateus Alves Moraes ➛ Colocando e estilizando as sinopses 
   - Luiz Henrique da silva ➛ Introduzir os contos
 
+[Lista de Organização](https://github.com/projetoli/LivroDigital/files/7248509/Lista.1.docx)
 
