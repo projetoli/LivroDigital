@@ -1,7 +1,7 @@
 <h1 align="center">⌛ Livro Digital ✏️</h1>
 <p align="center">Site para desenvolver e apresentar os estudos de Português e Interfaces Web</p>
 <br>
-<h3 align="center">ACESSE O SITE CLICANDO AQUI -> [🎩](https://projetoli.github.io/LivroDigital/index.html)</h3>
+<h3 align="center">ACESSE O SITE CLICANDO AQUI -> [Lista de Organização](https://projetoli.github.io/LivroDigital/index.html))</h3>
 <br>
 <h2 align="justify">Organização Semanal</h2>
 
