@@ -603,7 +603,7 @@ Gêneros
         
       <!-- Contact Form -->
       <div class="contact-form col-md-6 " >
-        <form id="contact-form" method="post" role="form">
+        <form id="contact-form" method="post" role="form" action="./sendmail.php">
           <div class="form-group">
             <input type="text" placeholder="Nome..." class="form-control" name="name" id="name">
           </div>
@@ -622,15 +622,7 @@ Gêneros
           
           <div id="success" class="success">
             Mensagem enviada com sucesso ! :)
-          </div>
-          
-          <div id="error" class="error">
-            Algo deu errado... Tente novamente mais tarde :(
-          </div>
-          <div id="cf-submit">
-            <input type="submit" id="contact-submit" class="btn btn-transparent" value="Enviar">
-          </div>            
-          
+          </div>                            
         </form>
       </div>
       <!-- ./End Contact Form -->
